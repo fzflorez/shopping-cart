@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practica carrito de compras</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="icon">
+      <a href=""><img src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" alt=""   
+      class="icon-carrito"  id="btn-mostrar-carrito"></a>
+
+      <div class="container-carrito">
+        <h2 id="titulo-carrito-vacio">Aún no tienes ningún producto</h2>
+        <h2 id="titulo-carrito-contenido">Tus productos</h2>
+        <div id="container-products"></div>
+        <a href="" class="btn-vaciar-carrito">Vaciar carrito</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="title">productos</h1>
+
+    <div class="list-products">
+      <div class="row">
+        <img src="/img/cinta-led-rgb.png" alt="">
+        <h3>Lampara LED de 12v</h3>
+        <p>$11.111</p>
+        <a href="#" class="btn-agregar-carrito" data-id="1">Agregar al carrito</a>
+      </div>
+
+      <div class="row">
+        <img src="/img/cinta-led-rgb.png" alt="">
+        <h3>Producto 2</h3>
+        <p>$22.222</p>
+        <a href="#" class="btn-agregar-carrito" data-id="2">Agregar al carrito</a>
+      </div>
+
+      <div class="row">
+        <img src="/img/cinta-led-rgb.png" alt="">
+        <h3>Producto 3</h3>
+        <p>$33.333</p>
+        <a href="#" class="btn-agregar-carrito" data-id="3">Agregar al carrito</a>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
